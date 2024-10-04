@@ -13,11 +13,11 @@
 		// username => root now your db username 
 		// password => empty now your oen password
 		// database name => Your database name
-		$conn = mysqli_connect("staffs.czptxhzjxjrt.us-east-1.rds.amazonaws.com", "admin", "Spruce2020.", "student");
+		$conn = mysqli_connect("mtuason-php-form-exercise-db.czptxhzjxjrt.us-east-1.rds.amazonaws.com", "root", "123InsecurePassword*", "mtuasondb");
 		
 		// Check connection
 		if($conn === false){
-			die("ERROR: Could not connect. "
+			echo("ERROR: Could not connect. "
 				. mysqli_connect_error());
 		}
 		
